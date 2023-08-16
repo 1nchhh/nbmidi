@@ -1,0 +1,21 @@
+{
+    "name": "nbmidi",
+    "version": "0.1.0",
+    "description": "",
+    "main": "build/index.js",
+    "scripts": {
+        "build": "tsc",
+        "start": "node --enable-source-maps build/index.js"
+    },
+    "dependencies": {
+        "midi-parser-js": "^4.0.4",
+        "prismarine-nbt": "^2.2.1"
+    },
+    "devDependencies": {
+        "@types/node": "^18.11.9",
+        "@typescript-eslint/eslint-plugin": "^5.42.0",
+        "@typescript-eslint/parser": "^5.42.0",
+        "eslint": "^8.26.0",
+        "typescript": "^4.8.4"
+    }
+}

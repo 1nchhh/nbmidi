@@ -1,0 +1,6 @@
+build/
+node_modules/
+nbt/*
+nbmidi.rar
+nbmidi.zip
+package-lock.json
